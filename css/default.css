@@ -1,0 +1,33 @@
+:root{
+   --main-color:#0d0f87;
+   --Secondary-color-01:#4373C2;
+   --Secondary-color-02:#61C9E8;
+   --Secondary-color-03:#43C1AC;
+   --Secondary-color-04:#4FE08B;
+   --text-color-02:#333333;
+   --background-color:#fbfbfb;
+  }
+  
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  ul {
+    list-style: none;
+  }
+
+  li{
+      list-style: none;
+  }
+
+  a {
+    text-decoration: none;
+    color: #000;
+  }
+
+  body{
+    font-family: 'Noto Sans KR', sans-serif;
+    background-color: #fff;
+}

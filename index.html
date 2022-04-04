@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HANIL</title>
+
+    <!-- 파비콘 -->
+    <link rel="shortcunt icon" href="./images/아이콘/파비콘.svg">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/default-1.css">
+
+    <link rel="stylesheet" href="./css/pc-1.css" media="screen and (min-width: 768px)">
+
+    <link rel="stylesheet" href="./css/mobile-1.css" media="screen and (max-width: 767px)">
+    <!-- aos.css -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+    <!-- js -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <!-- plugin -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/mobile.js"></script>
+
+</head>
+
+<body>
+
+    <!-- header -->
+
+    <div class="header-component">
+        <script src="./js/components/header.js"></script>
+    </div>
+
+    <div class="floating-nav">
+        <span class="slider" style="top: 66px"></span>
+        <ul>
+            <li>
+                <a href="#nav-corp-info">회사소개</a>
+                <a href="#nav-product-info">제품소개</a>
+                <a href="#nav-recruit-info">채용공고</a>
+                <a href="#nav-service-info">고객문의</a>
+            </li>
+        </ul>
+    </div>
+
+
+    <!-- 메인비쥬얼 -->
+    <div id="main-visual" class="swiper">
+        <div class="swiper-wrapper">
+            <!-- 슬라이더 콘텐츠 -->
+            <div class="swiper-slide s1">
+                <div class="title">
+                    <h2>
+                        <span>Consistently</span>
+                        <br>제품들은 끊임없는 신제품 개발과 연구, 그리고 품질관리에서 나옵니다.
+                    </h2>
+                </div>
+            </div>
+            <div class="swiper-slide s2">
+                <div class="title">
+                    <h2>
+                        <span>Growth</span>
+                        <br>제품들은 끊임없는 신제품 개발과 연구, 그리고 품질관리에서 나옵니다.
+                    </h2>
+                </div>
+            </div>
+            <div class="swiper-slide s3">
+                <div class="title">
+                    <h2>
+                        <span>Potential</span>
+                        <br>제품들은 끊임없는 신제품 개발과 연구, 그리고 품질관리에서 나옵니다.
+                    </h2>
+                </div>
+            </div>
+        </div>
+        <!-- 하단 버튼 -->
+        <div class="swiper-pagination"></div>
+
+        <!-- 이동 화살표 -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+
+    </div><!-- swiper-->
+
+    <!-- 검색창 -->
+    <div class="search-box">
+        <div class="tab-container">
+            <a href="#">제품검색</a>
+            <span> | </span>
+            <a href="#">약국찾기</a>
+        </div>
+        <form action="#">
+            <div class="search-form">
+                <input type="text" placeholder="제품을검색해 주세요">
+                <input type="image" class="image" src="./images/아이콘/handglass.svg" alt="handglass.svg">
+            </div>
+        </form>
+    </div>
+
+
+    <!-- 메인콘텐츠 -->
+    <main>
+        <!-- 기업정보 메인 (conti-1)-->
+        <section id="content1-full" class="container">
+            <div class="content1-containerbox">
+                <div class="content-title" data-aos="fade-right">
+                    <h3 class="conti-title-main">- 기업정보</h3>
+                    <h2 class="conti-title-sub">Growth</h2>
+                    <p class="conti-title-info">제품들은 끊임없는 신제품 개발과 연구 그리고 품질관리에서 나옵니다.
+                    </p>
+                </div>
+                <div class="content-img">
+                    <img src="./images/콘텐츠/기업소개-main.jpg" alt="기업소개사진">
+                </div>
+            </div>
+        </section>
+
+        <!-- 기업정보 링크 콘텐츠 (conti-2)-->
+
+         <!-- Swiper3 -->
+    <div id="content2-full" class="swiper3">
+        <div class="content-gray-wall"></div> 
+            <!-- <div class="swiper3-container"> -->
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide s1">
+                          <div class="content-sub-img">
+                              <a href="./About-Us.html">
+                                  <img src="./images/기업소개/building.jpg" alt="기업소개">
+                              </a>
+                          </div>
+                          <div class="content-sub-title">
+                              <i>
+                                  <a href="./About-Us.html">
+                                      <img src="./images/아이콘/회사소개아이콘.svg" alt="회사소개">
+                                  </a>
+                              </i>
+                              <h3>기업소개</h3>
+                              <p>(주)한일제약의 제품들은 끊임없는 신제품 개발과 연구, 그리고 품질관리에서 나옵니다.</p>
+                          </div>
+                    </div>
+                    <div class="swiper-slide s2">
+                          <div class="content-sub-img">
+                              <a href="./CEO-Greetings.html">
+                                  <img src="./images/기업소개/pen.jpg" alt="기업소개">
+                              </a>
+                          </div>
+                          <div class="content-sub-title">
+                              <i>
+                                  <a href="./CEO-Greetings.html">
+                                      <img src="./images/아이콘/ceo인사말-아이콘.svg" alt="CEO-인사말">
+                                  </a>
+                              </i>
+                              <h3>CEO 인사말</h3>
+                              <p>제품들은 끊임없는 신제품 개발과 연구, 그리고 품질관리에서 나옵니다.</p>
+                          </div>
+                    </div>
+                    <div class="swiper-slide s3">
+                          <div class="content-sub-img">
+                              <a href="./History.html">
+                                  <img src="./images/기업소개/frame.jpg" alt="기업소개">
+                              </a>
+                          </div>
+                          <div class="content-sub-title">
+                              <i>
+                                  <a href="./History.html">
+                                      <img src="./images/아이콘/회사연혁아이콘.svg" alt="회사연혁">
+                                  </a>
+                              </i>
+                              <h3>회사연혁</h3>
+                              <p>한일제약은 고기능성 치약전문업체로서 연구와 임상을 통해 최선을 다하는 모습을 보여드리고 있습니다.</p>
+                          </div>
+                    </div>
+                    <div class="swiper-slide s4">
+                          <div class="content-sub-img">
+                              <a href="./Location.html">
+                                  <img src="./images/기업소개/compass.jpg" alt="기업소개">
+                              </a>
+                          </div>
+                          <div class="content-sub-title">
+                              <i>
+                                  <a href="./Location.html">
+                                      <img src="./images/아이콘/오시는길.svg" alt="오시는길">
+                                  </a>
+                              </i>
+                              <h3>오시는길</h3>
+                              <p>한일제약의 가치는 여러분의 삶을 향상시키는데 있습니다. </p>
+                          </div>
+                    </div>
+                  </div>
+            <!-- </div> -->
+          <div class="swiper-pagination"></div>
+        </div>
+        
+
+        <!-- 제품소개 메인 (conti-3) -->
+        <section id="content3-full" class="container">
+            <div class="content3-wrap" data-aos="fade-down">
+                <div class="content3-line-bundle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="content-title">
+                    <h3 class="conti-title-main">- 제품소개</h3>
+                    <h2 class="conti-title-sub">Consistently</h2>
+                    <p class="conti-title-info">제품들은 끊임없는 신제품 개발과 연
+                        <br>구 그리고 품질관리에서 나옵니다.
+                    </p>
+                    <div class="conti-link1">
+                        <a href="#"><u>제품소개 바로가기</u></a>
+                    </div>
+                </div>
+            </div>    
+        </section>
+        <!-- 제품소개 슬라이드 (conti-4) -->
+
+        <div class="product-slide-backwall">
+            <div id="product-slide-container" class="swiper2">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide s1"></div>
+                    <div class="swiper-slide s2"></div>
+                    <div class="swiper-slide s3"></div>
+                    <div class="swiper-slide s4"></div>
+                    <div class="swiper-slide s5"></div>
+                    <div class="swiper-slide s6"></div>
+                    <div class="swiper-slide s7"></div>
+                    <div class="swiper-slide s8"></div>
+                    <div class="swiper-slide s9"></div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+        
+        <!-- 고객센터 메인 (conti-5) -->
+        <section id="content5-full" class="container">
+            <div class="content5-wrap" data-aos="fade-up">
+                <div class="content-title">
+                    <h3 class="conti-title-main">- 고객센터</h3>
+                    <h2 class="conti-title-sub">Help</h2>
+                    <p class="conti-title-info">제품들은 끊임없는 신제품 개발과 연
+                        <br>구 그리고 품질관리에서 나옵니다.
+                    </p>
+                    <div class="conti5-link">
+                        <a href="#"><u>고객센터 바로가기</u></a>
+                    </div>
+                </div>
+                <div class="content5-line-bundle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <div class="content5-img">
+                <img src="./images/콘텐츠/service-center3.jpg" alt="고객센터">
+            </div>
+        </section>
+
+
+
+        <!-- 채용정보 메인 (conti-6) -->
+        <section id="content6-full" class="container">
+            <div class="content6-wrap" data-aos="fade-down">
+                <div class="content6-line-bundle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="content-title">
+                    <h3 class="conti-title-main">- 채용정보</h3>
+                    <h2 class="conti-title-sub">Potential</h2>
+                    <p class="conti-title-info">무한한 잠재력을 갖고 함께 성장해나갈
+                        <br>인재를 기다립니다.
+                    </p>
+                    <div class="conti6-link">
+                        <a href="./recruit.html"><u>채용정보로 이동하기</u></a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="content6-img-container">
+                <img src="./images/콘텐츠/recruit.jpg" alt="채용정보">
+                <div class="recruit-info-box">
+                    <div class="recruit-info-title">
+                        <h3>채용공고</h3>
+                        <p>무한한 잠재력을 갖고<br>
+                            함께 성장해나갈<br>
+                            인재를 기다립니다.
+                        </p>
+                    </div>
+                    <div class="recruit-btn-box">
+                        <button type="button" class="recruit-btn 1">채용안내</button>
+                        <button type="button" class="recruit-btn 2">인재상</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
+    <!-- footer -->
+    <div class="footer-component">
+        <script src="./js/components/footer.js"></script>
+    </div>
+    <script src="js/swiper.js"></script>
+
+    <!-- aos-실행스크립트 -->
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
